@@ -1,4 +1,4 @@
-FROM lscr.io/linuxserver/webtop:latest
+FROM lscr.io/linuxserver/webtop:fedora-kde
 
 RUN apk update
 RUN apk add git
